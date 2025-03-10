@@ -1,0 +1,28 @@
+{
+  "name": "quizzer-backend",
+  "version": "1.0.0",
+  "description": "express backend to build the payment",
+  "homepage": "https://github.com/Quizzer-platform/Quizzer-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Quizzer-platform/Quizzer-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quizzer-platform/Quizzer-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "stripe": "^17.7.0"
+  }
+}
